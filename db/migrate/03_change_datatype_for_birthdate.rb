@@ -1,3 +1,3 @@
-class ChangeDatatypeForBirthdate < ActiveRecord::Migration[5.1]
-  change_column :students, :birthdate, :string 
+class ChangeDatatypeForBirthdate < ActiveRecord::Migration[5.2]
+  change_column :students, :birthdate, :string
 end
